@@ -1,0 +1,277 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><link rel="preload" href="/blog-gatsby/component---src-layouts-index-js-27b0a05b07475d6e6f17.js" as="script"/><link rel="preload" href="/blog-gatsby/component---src-templates-post-js-8aa746c353446545c65f.js" as="script"/><link rel="preload" href="/blog-gatsby/path---building-single-page-app-in-rails-14f7877aa1cdbe9f22e5.js" as="script"/><link rel="preload" href="/blog-gatsby/app-b8e603c6e6241e379fb4.js" as="script"/><link rel="preload" href="/blog-gatsby/commons-8b3777e9b7196ecd4564.js" as="script"/><title data-react-helmet="true">Joel Hölting</title><meta data-react-helmet="true" name="description" content="Full Stack Web Developer"/><style id="typography.js">html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}progress{vertical-align:baseline}[hidden],template{display:none}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,optgroup,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}html{font:100%/1.666 'Libre Baskerville',serif;box-sizing:border-box;overflow-y:scroll;}*{box-sizing:inherit;}*:before{box-sizing:inherit;}*:after{box-sizing:inherit;}body{color:hsla(0,0%,0%,0.8);font-family:'Libre Baskerville',serif;font-weight:400;word-wrap:break-word;font-kerning:normal;-moz-font-feature-settings:"kern", "liga", "clig", "calt";-ms-font-feature-settings:"kern", "liga", "clig", "calt";-webkit-font-feature-settings:"kern", "liga", "clig", "calt";font-feature-settings:"kern", "liga", "clig", "calt";}img{max-width:100%;margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.11067rem;}h1{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.11067rem;color:hsla(0,0%,0%,1);font-family:'Raleway',sans-serif;font-weight:800;text-rendering:optimizeLegibility;font-size:2rem;line-height:1.1;}h2{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.11067rem;color:hsla(0,0%,0%,1);font-family:'Raleway',sans-serif;font-weight:800;text-rendering:optimizeLegibility;font-size:1.51572rem;line-height:1.1;}h3{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.11067rem;color:hsla(0,0%,0%,1);font-family:'Raleway',sans-serif;font-weight:800;text-rendering:optimizeLegibility;font-size:1.31951rem;line-height:1.1;}h4{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.11067rem;color:hsla(0,0%,0%,1);font-family:'Raleway',sans-serif;font-weight:800;text-rendering:optimizeLegibility;font-size:1rem;line-height:1.1;}h5{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.11067rem;color:hsla(0,0%,0%,1);font-family:'Raleway',sans-serif;font-weight:800;text-rendering:optimizeLegibility;font-size:0.87055rem;line-height:1.1;}h6{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.11067rem;color:hsla(0,0%,0%,1);font-family:'Raleway',sans-serif;font-weight:800;text-rendering:optimizeLegibility;font-size:0.81225rem;line-height:1.1;}hgroup{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.11067rem;}ul{margin-left:1.666rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.11067rem;list-style-position:outside;list-style-image:none;}ol{margin-left:1.666rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.11067rem;list-style-position:outside;list-style-image:none;}dl{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.11067rem;}dd{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.11067rem;}p{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.11067rem;}figure{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.11067rem;}pre{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.11067rem;font-size:0.85rem;line-height:1.666rem;}table{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.11067rem;font-size:1rem;line-height:1.666rem;border-collapse:collapse;width:100%;}fieldset{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.11067rem;}blockquote{margin-left:1.11067rem;margin-right:1.11067rem;margin-top:1.11067rem;padding-bottom:0;padding-left:1.11067rem;padding-right:0;padding-top:0;margin-bottom:1.11067rem;color:hsla(0,0%,0%,0.7340000000000001);border-left:4px solid #999;}form{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.11067rem;}noscript{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.11067rem;}iframe{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.11067rem;}hr{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:calc(1.11067rem - 1px);background:hsla(0,0%,0%,0.2);border:none;height:1px;}address{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.11067rem;}b{font-weight:700;}strong{font-weight:700;}dt{font-weight:700;}th{font-weight:700;}li{margin-bottom:calc(1.11067rem / 2);}ol li{padding-left:0;}ul li{padding-left:0;}li > ol{margin-left:1.666rem;margin-bottom:calc(1.11067rem / 2);margin-top:calc(1.11067rem / 2);}li > ul{margin-left:1.666rem;margin-bottom:calc(1.11067rem / 2);margin-top:calc(1.11067rem / 2);}blockquote *:last-child{margin-bottom:0;}li *:last-child{margin-bottom:0;}p *:last-child{margin-bottom:0;}li > p{margin-bottom:calc(1.11067rem / 2);}code{font-size:0.85rem;line-height:1.666rem;}kbd{font-size:0.85rem;line-height:1.666rem;}samp{font-size:0.85rem;line-height:1.666rem;}abbr{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}acronym{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}abbr[title]{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;text-decoration:none;}thead{text-align:left;}td,th{text-align:left;border-bottom:1px solid hsla(0,0%,0%,0.12);font-feature-settings:"tnum";-moz-font-feature-settings:"tnum";-ms-font-feature-settings:"tnum";-webkit-font-feature-settings:"tnum";padding-left:1.11067rem;padding-right:1.11067rem;padding-top:0.833rem;padding-bottom:calc(0.833rem - 1px);}th:first-child,td:first-child{padding-left:0;}th:last-child,td:last-child{padding-right:0;}@media only screen and (max-width:480px){html{font-size:80%;line-height:1.4999999999999998;}}a{font-weight:bold;color:#00f;text-decoration:none;}a:hover{text-decoration:underline;}</style><link href="//fonts.googleapis.com/css?family=Raleway:800|Libre+Baskerville:400,400i,700" rel="stylesheet" type="text/css"/><style id="gatsby-inlined-css">#navButton{width:200px;height:25px;position:fixed;top:0;left:50%;transform:translateX(-50%);background:#24255d;transition:all .2s linear;text-align:center;color:#fff;font-family:Code Bold;z-index:1;cursor:pointer;border-radius:0 0 20px 20px}@media (min-width:700px){#navButton.inactive:hover{width:225px;height:40px;padding-top:5px}}#navButton.active{width:100vw;height:100vh;border-radius:0}#navButton div#navMenu{height:100%;display:flex;align-items:center;justify-content:center}#navButton div#navMenu ul{list-style-type:none}#navButton div#navMenu ul li{font-size:4rem;opacity:0;text-shadow:2px 2px #000}#navButton div#navMenu ul li:first-child{animation:opacity .5s linear forwards}#navButton div#navMenu ul li:nth-child(2){animation:opacity .5s .1s linear forwards}#navButton div#navMenu ul li:nth-child(3){animation:opacity .5s .2s linear forwards}#navButton div#navMenu ul li:nth-child(4){animation:opacity .5s .3s linear forwards}#navButton div#navMenu ul li a{color:#c60000}@keyframes opacity{0%{opacity:0}50%{opacity:0}to{opacity:1}}@font-face{font-family:Code Bold;src:url(/blog-gatsby/static/code_bold.1caba215.woff) format("woff")}@font-face{font-family:Code Light;src:url(/blog-gatsby/static/code_light.213d933a.woff) format("woff")}code[class*=language-],pre[class*=language-]{color:#f8f8f2;background:none;text-shadow:0 1px rgba(0,0,0,.3);font-family:Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:1em;margin:.5em 0;overflow:auto;border-radius:.3em}:not(pre)>code[class*=language-],pre[class*=language-]{background:#272822}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal}.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#708090}.token.punctuation{color:#f8f8f2}.namespace{opacity:.7}.token.constant,.token.deleted,.token.property,.token.symbol,.token.tag{color:#f92672}.token.boolean,.token.number{color:#ae81ff}.token.attr-name,.token.builtin,.token.char,.token.inserted,.token.selector,.token.string{color:#a6e22e}.language-css .token.string,.style .token.string,.token.entity,.token.operator,.token.url,.token.variable{color:#f8f8f2}.token.atrule,.token.attr-value,.token.function{color:#e6db74}.token.keyword{color:#66d9ef}.token.important,.token.regex{color:#fd971f}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}</style></head><body><div id="___gatsby"><div data-radium="true" data-reactroot="" data-reactid="1" data-react-checksum="-790292018"><!-- react-empty: 2 --><div data-reactid="3"><div id="navButton" class="inactive" data-reactid="4">navigation</div></div><div style="margin:5vh auto;max-width:980px;width:95%;" data-radium="true" data-reactid="5"><div data-reactid="6"><h1 data-reactid="7">Building a Single Page App in Rails</h1><h2 data-reactid="8">August 27, 2017</h2><div data-reactid="9"><p>Link to the Game: <a href="http://www.whosaidit.co">Who Said It?</a></p>
+<p>I recently built my first single page web application using a rails back-end and a jQuery front-end written in a modular, object-literal pattern. This project was the amalgamation of all of the technologies I've learned over the past year while enrolled in the Flatiron School.</p>
+<h2>The Idea</h2>
+<p>During a browsing session I stumbled upon this website: <a href="http://www.trumpormrburns.com/">Trump or Burns</a>.</p>
+<p>It's one of those 'Who Said It?' games where the user has to decide whether Donald Trump or Mr. Burns said a certain quote. Deciding who said each quote is a funny challenge given that both Donald Trump and Mr. Burns are greedy and devoid of any moral compass. I liked the idea but I wanted to expand it into something more dynamic and complex. I envisioned the user choosing two or more characters from a pool of 12 real and fictitious characters. The game would select 10 random quotes and then display one quote at a time. The user would then guess 'Who Said It?' and would get a score at the end of the game. Each completed game would be saved for statistical analysis in the future.</p>
+<h2>The Back End</h2>
+<p>This project was about utilizing and working with the technologies I've learned this past year and getting some hands-on time with Ruby on Rails and object-oriented programming. I also knew I was going to take a radical departure from the project requirements by making this a Single Page Application without any user authentication/authorization system.</p>
+<p>My goal was to instantiate and save characters, quotes and games into the rails database and then display data on the front end. I wanted to save a completed game, including which characters were chosen by the user and what quotes were displayed to the user during that game. With this data I would be able to extract statistics from the SQL database later on(ex. most selected characters, least/most challenging matchup, etc.)</p>
+<h3>Model Associations</h3>
+<div class="gatsby-highlight">
+      <pre class="language-none"><code>Game
+has_many :game_logs
+has_many :characters, through: :game_logs
+has_many :quotes, through: :characters
+
+Character
+has_many :game_logs
+has_many :games, through: :game_logs
+has_many :quotes
+
+Quote
+belongs_to :character
+
+GameLog (join table to allow game.characters and character.games)
+belongs_to :game
+belongs_to :character</code></pre>
+      </div>
+<p>Games and Characters have many of eachother and Quotes belong to a character. Therefore, a Game has many Quotes through a character. GameLog is a join table that allows me to see the characters from a game and see all games that a character has appeared in. I need these relationships when it comes to analyzing game stats.</p>
+<h3>Using Serialize Array</h3>
+<p>As the associations were currently set up, a game with two characters would have all the quotes from both the characters. In other words, <code>@game.quotes</code> would return upwards of 70 quotes (each character has approx. 35 quotes). I wanted to have ten quotes per game, selected randomly from the pool of all of the quotes between the two characters. I also wanted to be able to look in the database and see what quotes a user had in their game.</p>
+<p>This presented a challenge for me but I learned about <a href="https://apidock.com/rails/ActiveRecord/Base/serialize/class">ActiveRecord Serialize</a> which allows you to save an attribute as an array in the database.</p>
+<div class="gatsby-highlight">
+      <pre class="language-ruby"><code><span class="token keyword">class</span> <span class="token class-name">Game</span> <span class="token operator">&lt;</span> <span class="token constant">ApplicationRecord</span>
+  has_many <span class="token symbol">:game_logs</span>
+  has_many <span class="token symbol">:characters</span><span class="token punctuation">,</span> through<span class="token punctuation">:</span> <span class="token symbol">:game_logs</span>
+  has_many <span class="token symbol">:quotes</span><span class="token punctuation">,</span> through<span class="token punctuation">:</span> <span class="token symbol">:characters</span>
+  serialize <span class="token symbol">:ten_quote_ids</span><span class="token punctuation">,</span> <span class="token builtin">Array</span>
+  serialize <span class="token symbol">:state</span><span class="token punctuation">,</span> <span class="token builtin">Array</span>
+
+  <span class="token keyword">def</span> game_quotes
+    <span class="token keyword">if</span> ten_quote_ids<span class="token punctuation">.</span>length <span class="token operator">==</span> <span class="token number">10</span>
+      quotes<span class="token punctuation">.</span><span class="token function">where</span><span class="token punctuation">(</span>id<span class="token punctuation">:</span> ten_quote_ids<span class="token punctuation">)</span>
+    <span class="token keyword">else</span>
+      ten_quotes <span class="token operator">=</span> quotes<span class="token punctuation">.</span><span class="token function">order</span><span class="token punctuation">(</span><span class="token string">'RANDOM()'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">limit</span><span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">)</span>
+      update ten_quote_ids<span class="token punctuation">:</span> ten_quotes<span class="token punctuation">.</span><span class="token function">map</span><span class="token punctuation">(</span><span class="token operator">&amp;</span><span class="token symbol">:id</span><span class="token punctuation">)</span>
+      ten_quotes
+    <span class="token keyword">end</span>
+  <span class="token keyword">end</span>
+<span class="token keyword">end</span>
+</code></pre>
+      </div>
+<p>Here I check whether a game instance has ten quote ids. If not then I grab ten quotes and map only the ids. Then I update the value of the ten<em>quote</em>ids attribute, which is an array of ids in this case. I could have stored instances of quotes themselves but if the quotes in the database changed then those changes would not be reflected in the array. Instead I store the ids and call the records when I need them.</p>
+<p>Using this method I can see exactly which quotes a user had in their game. This will be helpful for my future goal of analyzing game data.</p>
+<h3>Seeding the Database</h3>
+<p>I manually added quotes for my game using JSON and then imported the JSON into the database which creates a character and quote instances for that character.</p>
+<p><code>donald_trump.json</code></p>
+<div class="gatsby-highlight">
+      <pre class="language-json"><code><span class="token punctuation">{</span>
+  <span class="token property">"quotes"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+    <span class="token punctuation">{</span>
+      <span class="token property">"content"</span><span class="token operator">:</span> <span class="token string">"You know, it really doesn’t matter what they write as long as you’ve got a young and beautiful piece of ass. But she’s got to be young and beautiful."</span><span class="token punctuation">,</span>
+      <span class="token property">"source"</span><span class="token operator">:</span> <span class="token string">"http://www.cosmopolitan.com/politics/news/a44629/donald-trump-insults-women/"</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">{</span>
+      <span class="token property">"content"</span><span class="token operator">:</span> <span class="token string">"The point is, you can never be too greedy."</span><span class="token punctuation">,</span>
+      <span class="token property">"source"</span><span class="token operator">:</span> <span class="token string">"https://www.theodysseyonline.com/20-actual-trump-quotes"</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+</code></pre>
+      </div>
+<p>Then I built a JSON importer to pull in the quote data and create Ruby objects with the proper associations.</p>
+<p>seeds.rb</p>
+<div class="gatsby-highlight">
+      <pre class="language-ruby"><code><span class="token keyword">def</span> <span class="token function">character_import</span><span class="token punctuation">(</span>filename<span class="token punctuation">,</span> name<span class="token punctuation">,</span> description<span class="token punctuation">)</span>
+  character <span class="token operator">=</span> <span class="token constant">Character</span><span class="token punctuation">.</span><span class="token function">create</span><span class="token punctuation">(</span>
+    name<span class="token punctuation">:</span> name<span class="token punctuation">,</span>
+    description<span class="token punctuation">:</span> description
+  <span class="token punctuation">)</span>
+
+  json <span class="token operator">=</span> <span class="token constant">ActiveSupport</span><span class="token punctuation">:</span><span class="token symbol">:JSON</span><span class="token punctuation">.</span><span class="token function">decode</span><span class="token punctuation">(</span><span class="token builtin">File</span><span class="token punctuation">.</span><span class="token function">read</span><span class="token punctuation">(</span><span class="token string">"db/seeds/quotes/<span class="token interpolation"><span class="token delimiter tag">#{</span>filename<span class="token delimiter tag">}</span></span>.json"</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+  json<span class="token punctuation">.</span><span class="token keyword">each</span> <span class="token keyword">do</span> <span class="token operator">|</span>key<span class="token punctuation">,</span> value<span class="token operator">|</span>
+    value<span class="token punctuation">.</span><span class="token keyword">each</span> <span class="token keyword">do</span> <span class="token operator">|</span>quote<span class="token operator">|</span>
+      <span class="token constant">Quote</span><span class="token punctuation">.</span><span class="token function">create</span><span class="token punctuation">(</span>content<span class="token punctuation">:</span> quote<span class="token punctuation">[</span><span class="token string">"content"</span><span class="token punctuation">]</span><span class="token punctuation">,</span> source<span class="token punctuation">:</span> quote<span class="token punctuation">[</span><span class="token string">"source"</span><span class="token punctuation">]</span><span class="token punctuation">,</span> character_id<span class="token punctuation">:</span> character<span class="token punctuation">.</span>id<span class="token punctuation">)</span>
+    <span class="token keyword">end</span>
+  <span class="token keyword">end</span>
+<span class="token keyword">end</span>
+
+<span class="token function">character_import</span><span class="token punctuation">(</span><span class="token string">"donald_trump"</span><span class="token punctuation">,</span> <span class="token string">"Donald Trump"</span><span class="token punctuation">,</span> <span class="token string">"Eats pizza with a fork and knife. Likely harbinger of the apocalypse."</span><span class="token punctuation">)</span>
+</code></pre>
+      </div>
+<h3>Utilizing Rails API Endpoints</h3>
+<p>In a traditional rails application, a URL is visited and the controller will provide view-specific logic (ex. @posts = Post.all) for that page. In order to keep this application single-page (no redirects) I used <a href="https://github.com/rails-api/active_model_serializers">Active Model Serializers</a> which converts a Ruby instance into JSON and renders it for the view to utilize.</p>
+<p><code>games_controller.rb</code></p>
+<div class="gatsby-highlight">
+      <pre class="language-ruby"><code><span class="token keyword">def</span> index
+  <span class="token variable">@games</span> <span class="token operator">=</span> <span class="token constant">Game</span><span class="token punctuation">.</span>all
+  render json<span class="token punctuation">:</span> <span class="token variable">@games</span>
+<span class="token keyword">end</span>
+</code></pre>
+      </div>
+<p>I created a character selection UI within a <code>form_tag</code> helper that iterated over <code>Character.all</code>. Inside each character iteration I added a hidden input field with the object's data attributes.</p>
+<div class="gatsby-highlight">
+      <pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>hidden<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>&lt;%= object.name %><span class="token punctuation">"</span></span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>&lt;%= object.id %><span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>&lt;%= object.id %><span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+</code></pre>
+      </div>
+<p>Upon clicking on a character, a class of <code>.selected</code> is added (jQuery) to detect the user's selection. After two choices are made from the character selection screen, I grab the user's choices and shoot an AJAX POST request to the rails back end.</p>
+<div class="gatsby-highlight">
+      <pre class="language-javascript"><code><span class="token keyword">var</span> url <span class="token operator">=</span> <span class="token string">"games/create"</span>
+<span class="token keyword">var</span> character1 <span class="token operator">=</span> <span class="token function">$</span><span class="token punctuation">(</span><span class="token string">'.selected :input'</span><span class="token punctuation">)</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+<span class="token keyword">var</span> character2 <span class="token operator">=</span> <span class="token function">$</span><span class="token punctuation">(</span><span class="token string">'.selected :input'</span><span class="token punctuation">)</span><span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+
+<span class="token keyword">var</span> object <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token string">'authenticity_token'</span><span class="token punctuation">:</span> AUTH_TOKEN<span class="token punctuation">,</span>
+  <span class="token string">'characters'</span> <span class="token punctuation">:</span> <span class="token punctuation">[</span>
+  <span class="token punctuation">{</span>
+    <span class="token string">'name'</span><span class="token punctuation">:</span> character1<span class="token punctuation">.</span>name<span class="token punctuation">,</span>
+    <span class="token string">'id'</span><span class="token punctuation">:</span> character1<span class="token punctuation">.</span>id
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">{</span>
+    <span class="token string">'name'</span><span class="token punctuation">:</span> character2<span class="token punctuation">.</span>name<span class="token punctuation">,</span>
+    <span class="token string">'id'</span><span class="token punctuation">:</span> character2<span class="token punctuation">.</span>id
+  <span class="token punctuation">}</span><span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+
+$<span class="token punctuation">.</span><span class="token function">ajax</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  type<span class="token punctuation">:</span> <span class="token string">"POST"</span><span class="token punctuation">,</span>
+  url<span class="token punctuation">:</span> url<span class="token punctuation">,</span>
+  data<span class="token punctuation">:</span> object<span class="token punctuation">,</span>
+  success<span class="token punctuation">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span>data<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  	<span class="token comment">// Do something with the data</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+      </div>
+<p>The beauty of this strategy is that we get a response object back from my rails back end asynchronously and without any redirects. After the controller receives the AJAX POST response, it finds the two characters inside the SQL database, creates a new game instance, associates characters with that game and then renders it via JSON.</p>
+<div class="gatsby-highlight">
+      <pre class="language-ruby"><code><span class="token keyword">class</span> <span class="token class-name">GamesController</span> <span class="token operator">&lt;</span> <span class="token constant">ApplicationController</span>
+  <span class="token keyword">def</span> create
+    <span class="token variable">@character1</span> <span class="token operator">=</span> <span class="token constant">Character</span><span class="token punctuation">.</span><span class="token function">find_by</span><span class="token punctuation">(</span>character_params<span class="token punctuation">[</span><span class="token string">"0"</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+    <span class="token variable">@character2</span> <span class="token operator">=</span> <span class="token constant">Character</span><span class="token punctuation">.</span><span class="token function">find_by</span><span class="token punctuation">(</span>character_params<span class="token punctuation">[</span><span class="token string">"1"</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+    <span class="token variable">@game</span> <span class="token operator">=</span> <span class="token constant">Game</span><span class="token punctuation">.</span>create
+    <span class="token variable">@game</span><span class="token punctuation">.</span>characters <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token variable">@character1</span><span class="token punctuation">,</span> <span class="token variable">@character2</span><span class="token punctuation">]</span>
+    render json<span class="token punctuation">:</span> <span class="token variable">@game</span><span class="token punctuation">,</span> status<span class="token punctuation">:</span> <span class="token number">201</span>
+  <span class="token keyword">end</span>
+<span class="token keyword">end</span>
+</code></pre>
+      </div>
+<p>A similar process occurs at the end of the game. On the front-end, a game state keeps track of whether users answer correctly or incorrectly. If the user chooses correctly, a <code>true</code> value is pushed into the game state. Otherwise it gets a <code>false</code> value.</p>
+<p>Once the game is over another AJAX POST request is made, the game is marked 'completed' and then saved into the Rails database.</p>
+<h2>The Front End</h2>
+<p>At the beginning of development on this project I had about 3 months of javascript experience. I had always been able to get my code to work but I usually just spewed out code without thinking about its structure. Typically this resulted in one obese javascript file wrapped in an on-load function, devoid of structure or organization. When you are in the early stages of learning a programming language getting the thing to just work can be empowering. But I decided that this project would be a good place to start asking how and why I was writing code, rather than just getting the damn thing to work.</p>
+<h3>Modularizing the Javascript</h3>
+<p>After some further exploration I decided to 'modularize' my javascript using the object-literal pattern. With this pattern, each module is tasked with doing a specfic task or carrying out behavior for a specific portion of the application. Within each module there are a number of tasks that are performed internally.</p>
+<p>I see two main benefits to the modular pattern:</p>
+<ol>
+<li>
+<p>Organization: The module is only tasked with doing things that belong in a specific part of the application. Using this style I can build a module for each section of my application. It is also internally organized. If I need to locate event handlers or cached DOM elements I know exactly where to find them.</p>
+</li>
+<li>
+<p>Self-Enclosed Logic: This module is wrapped in an immediately invoked functional expression (IIFE) to prevent variables from escaping into the global scope.</p>
+</li>
+</ol>
+<p>My welcome screen module:</p>
+<div class="gatsby-highlight">
+      <pre class="language-javascript"><code><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+
+  <span class="token keyword">var</span> welcomeModule <span class="token operator">=</span> <span class="token punctuation">{</span>
+    init<span class="token punctuation">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">cacheDom</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">onLoad</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">bindEvents</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    cacheDom<span class="token punctuation">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token comment">// Welcome Screen Assignments</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span>$welcomeScreen <span class="token operator">=</span> <span class="token function">$</span><span class="token punctuation">(</span><span class="token string">'#welcome-screen'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span>$playButton <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>$welcomeScreen<span class="token punctuation">.</span><span class="token function">find</span><span class="token punctuation">(</span><span class="token string">'button'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token comment">// Character Screen Assignment</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span>$characterScreen <span class="token operator">=</span> <span class="token function">$</span><span class="token punctuation">(</span><span class="token string">'#character-screen'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    bindEvents<span class="token punctuation">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token comment">// On Click, Hide Welcome Screen and Show Character Screen</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span>$playButton<span class="token punctuation">.</span><span class="token function">on</span><span class="token punctuation">(</span><span class="token string">'click'</span><span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>swapWelcome<span class="token punctuation">.</span><span class="token function">bind</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    unbindEvents<span class="token punctuation">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span>$playButton<span class="token punctuation">.</span><span class="token function">unbind</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    onLoad<span class="token punctuation">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span>$characterScreen<span class="token punctuation">.</span><span class="token function">hide</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">removeClass</span><span class="token punctuation">(</span><span class="token string">'hide'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    swapWelcome<span class="token punctuation">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token comment">// Hide Welcome Screen and Show Character Screen</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span>$welcomeScreen<span class="token punctuation">.</span><span class="token function">hide</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span>$characterScreen<span class="token punctuation">.</span><span class="token function">fadeIn</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token comment">// Unbind all events to avoid memory leaks</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">unbindEvents</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+  welcomeModule<span class="token punctuation">.</span><span class="token function">init</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</code></pre>
+      </div>
+<p>Please watch this excellent tutorial on CommonJS/Modular syntax: <a href="https://www.youtube.com/watch?v=HkFlM73G-hk">Video Tutorial</a></p>
+<h3>Communicating between Modules with ES6 and Browserify</h3>
+<p>One of the major challenges I ran into was getting the modules to interact with one another. ES6 introduces the ability to export and import modules across files. Because of this I needed something to compile my ES6 code (import/export functionality) into ES5 code. I found myself juggling between two choices:</p>
+<ol>
+<li>
+<p>Webpack</p>
+</li>
+<li>
+<p><a href="https://github.com/browserify-rails/browserify-rails">Browserify Rails</a>, a library that adds CommonJS module support to the Rails Asset Pipeline via Browserify.</p>
+</li>
+</ol>
+<p>Although I had some initial success with webpack, there is a steep learning curve in terms of configuration and setup. I figured I would postpone my relationship with Webpack until I start developing React applications. The verdict: I chose the Browserify Rails gem for convenience.</p>
+<p>Exporting a module is as simple as doing:</p>
+<div class="gatsby-highlight">
+      <pre class="language-javascript"><code>module<span class="token punctuation">.</span>exports <span class="token operator">=</span> welcomeModule
+</code></pre>
+      </div>
+<p>To import a module inside another module is as simple as assigning a variable and then requiring the relevant file:</p>
+<div class="gatsby-highlight">
+      <pre class="language-javascript"><code><span class="token keyword">const</span> welcomeModule <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'./welcomeModule'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+      </div>
+<h3>Handlebars.js</h3>
+<p>Writing HTML inside of javascript is pretty ugly and bad practice (unless you are using something like JSX in React). HTML should stay inside of HTML files, Javascript shoud remain inside of javascript files and Ruby code should exist within Ruby files. In computer science this principle is known as Separation of Concerns (SOC).</p>
+<p>Templating languages like Handlebars, Mustache and Lodash remove the frustration of writing HTML inside of Javascript. Instead you create HTML templates and then render them using JSON.</p>
+<p>Create an HTML element where to insert the rendered template:</p>
+<div class="gatsby-highlight">
+      <pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>game-pictures<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+</code></pre>
+      </div>
+<p>Create the template:</p>
+<div class="gatsby-highlight">
+      <pre class="language-javascript"><code><span class="token operator">&lt;</span>script id<span class="token operator">=</span><span class="token string">"game-quote-template"</span> type<span class="token operator">=</span><span class="token string">"text/x-handlebars-template"</span><span class="token operator">></span>
+  <span class="token operator">&lt;</span>p<span class="token operator">></span><span class="token punctuation">{</span>content<span class="token punctuation">}</span><span class="token operator">&lt;</span><span class="token operator">/</span>p<span class="token operator">></span>
+<span class="token operator">&lt;</span><span class="token operator">/</span>script<span class="token operator">></span>
+</code></pre>
+      </div>
+<p>Render a template with JSON received from database:</p>
+<div class="gatsby-highlight">
+      <pre class="language-javascript"><code><span class="token keyword">this</span><span class="token punctuation">.</span>$gameQuotes <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>$gameScreen<span class="token punctuation">.</span><span class="token function">find</span><span class="token punctuation">(</span><span class="token string">'#game-quotes'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">var</span> quoteTemplate <span class="token operator">=</span> Handlebars<span class="token punctuation">.</span><span class="token function">compile</span><span class="token punctuation">(</span><span class="token function">$</span><span class="token punctuation">(</span><span class="token string">'#game-quote-template'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">html</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">var</span> quote <span class="token operator">=</span> <span class="token function">quoteTemplate</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>game<span class="token punctuation">.</span>quotes<span class="token punctuation">[</span><span class="token keyword">this</span><span class="token punctuation">.</span>counter<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">this</span><span class="token punctuation">.</span>$gameQuotes<span class="token punctuation">.</span><span class="token function">html</span><span class="token punctuation">(</span>quote<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+      </div>
+<p>I have a counter in my game in order to render a different quote each time the counter increments.</p>
+<p>End Result:</p>
+<div class="gatsby-highlight">
+      <pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>game-quotes<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span>"You wouldn't know cool if I locked you in the freezer!"<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+</code></pre>
+      </div>
+<h2>Handwritten Title Animation w/ SVG and CSS3</h2>
+<p>I've been spending a lot of time implementing SVG (Scalable Vector Graphics) on the web and tinkering with Illustrator. With SVG and CSS you can easily transform SVG components inside the DOM. For the landing page of my application I decided that I wanted to create a kitchy handwritten effect. To achieve the effect, I grouped each letter of the title along with a stroke on a layer below the letter. The stroke was drawn on a path in the direction that I imagined a pencil or pen would be writing the words. I applied a mask to the groups to fill in the letter using the stroke without spilling outside the letter outlines. In CSS3 you can animate the stroke of a line using <code>stroke-dashoffset</code> and <code>stroke-dasharray</code>.</p>
+<p>This is the animation for the first half of the W in 'Who Said It?':</p>
+<div class="gatsby-highlight">
+      <pre class="language-css"><code><span class="token atrule"><span class="token rule">@keyframes</span> whosaidit</span> <span class="token punctuation">{</span>
+  <span class="token selector">100%</span> <span class="token punctuation">{</span>
+    <span class="token property">stroke-dashoffset</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">#clip_w1</span> <span class="token punctuation">{</span>
+  <span class="token property">stroke</span><span class="token punctuation">:</span> #fff<span class="token punctuation">;</span>
+  <span class="token property">stroke-dasharray</span><span class="token punctuation">:</span> 500<span class="token punctuation">;</span>
+  <span class="token property">stroke-dashoffset</span><span class="token punctuation">:</span> 500<span class="token punctuation">;</span>
+  <span class="token property">stroke-width</span><span class="token punctuation">:</span>24<span class="token punctuation">;</span>
+  <span class="token property">animation</span><span class="token punctuation">:</span> whosaidit .8s linear forwards<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+      </div></div></div></div><style data-reactid="10"></style></div></div><script id="webpack-manifest">/*<![CDATA[*/window.webpackManifest={"231608221292675":"app-b8e603c6e6241e379fb4.js","195351340454287":"component---src-templates-post-js-8aa746c353446545c65f.js","162898551421021":"component---src-pages-404-js-4503918ea3a16cfcdb75.js","263791100135453":"component---src-pages-about-js-c1d78200c10ff383ccf5.js","212839066777427":"component---src-pages-blog-js-becf308e08ee49719f7a.js","35783957827783":"component---src-pages-index-js-249d76a02f25eed8b3ad.js","60335399758886":"path----557518bd178906f8d58a.js","91453965554066":"path---follow-your-dreams-6cde5a15f6d7338261a7.js","37639709099586":"path---building-ruby-cli-gem-f1d64474410cb25dcf4e.js","218513517675003":"path---sinatra-final-project-1d066a549262868b4838.js","40056559369815":"path---rails-devise-and-omniauth-e150375fe4cbd2c9ad67.js","265087652642600":"path---hamburger-animation-css-javascript-5ad896e7304415606915.js","142184262175370":"path---javascript-filter-map-reduce-f7a675442ea2306e2428.js","264864875965979":"path---javascript-call-apply-bind-4ec0c7a5d5e578b547f0.js","226616898669359":"path---building-single-page-app-in-rails-14f7877aa1cdbe9f22e5.js","225592761143491":"path---test-your-rails-app-on-any-device-bdfe305f850f5e70a122.js","172862802906904":"path---wtf-is-jekyll-b084044b00f1e3606f6c.js","144045539617314":"path---comparing-scope-javascript-ruby-python-dafc3ae2e7867e735056.js","179262900017466":"path---how-does-the-internet-work-503d0b9c343004618a6f.js","254022195166212":"path---404-a0e39f21c11f6a62c5ab.js","273950069227526":"path---about-a0e39f21c11f6a62c5ab.js","49683490770531":"path---blog-305808d39d784296cb5f.js","142629428675168":"path---index-a0e39f21c11f6a62c5ab.js","178698757827068":"path---404-html-a0e39f21c11f6a62c5ab.js","114276838955818":"component---src-layouts-index-js-27b0a05b07475d6e6f17.js"}/*]]>*/</script><script>/*<![CDATA[*/!function(e,t,r){function n(){for(;d[0]&&"loaded"==d[0][f];)c=d.shift(),c[o]=!i.parentNode.insertBefore(c,i)}for(var s,a,c,d=[],i=e.scripts[0],o="onreadystatechange",f="readyState";s=r.shift();)a=e.createElement(t),"async"in i?(a.async=!1,e.head.appendChild(a)):i[f]?(d.push(a),a[o]=n):e.write("<"+t+' src="'+s+'" defer></'+t+">"),a.src=s}(document,"script",["/blog-gatsby/commons-8b3777e9b7196ecd4564.js","/blog-gatsby/app-b8e603c6e6241e379fb4.js","/blog-gatsby/path---building-single-page-app-in-rails-14f7877aa1cdbe9f22e5.js","/blog-gatsby/component---src-templates-post-js-8aa746c353446545c65f.js","/blog-gatsby/component---src-layouts-index-js-27b0a05b07475d6e6f17.js"])/*]]>*/</script></body></html>
